@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+
+	<%- include("partials/header") %>
+
+	<div class="container">
+		<div class="row">
+			<% designs.forEach((design) => {%>
+			<div class="col-sm-6 image">
+				<a href="/design/<%= design._id %>">
+					<img src="<%= design.url %>" class="img-fluid inner">
+				</a>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+
+<%- include ("partials/footer") %>

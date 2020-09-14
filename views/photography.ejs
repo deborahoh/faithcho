@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+
+	<div class="container">
+		<div class="row">
+			<% photos.forEach((photo) => {%>
+			<div class="col-sm-6 image">
+				<img src="<%= photo.url %>" class="img-fluid full-image">
+			</div>
+			<% }); %>
+		</div>
+	</div>
+
+<%- include ("partials/footer") %>

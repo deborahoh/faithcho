@@ -1,0 +1,89 @@
+body {
+	background: rgb(245,245,245);
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+jumbotron {
+	background-color: rgb(255,248,220);
+}
+
+#contact {
+	padding-top: 15.0em;
+}
+
+.container {
+	padding-top: 5.0em;
+}
+
+.col {
+	align-items: center;
+	justify-content: center;
+}
+
+.inner {
+	height: 25.0em;
+	padding: 2.0em;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fa-5x {
+	color: black;
+}
+
+.fa-5x:hover {
+	color: lightgreen;
+}
+
+.inner:hover {
+	border: lightgreen 3px solid;
+}
+
+.full-image:hover {
+	border: lightgreen 3px solid;
+}
+
+.main-photo {
+	height: 25.0em;
+}
+
+.bio-photo {
+	border: black 2px solid;
+	height: 25.0em;
+}
+
+.description {
+	padding-left: 4.0em;
+}
+
+#mainNav {
+	background: rgb(245,245,245);
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#mainNav .navbar-brand {
+	font-size: 2.0rem;
+	font-weight: 100;
+}
+
+#mainNav .navbar-brand:hover {
+	color: lightgreen;
+}
+
+#mainNav .nav-link {
+	color: black;
+}
+
+#mainNav .nav-link:hover {
+	color: lightgreen;
+}
+
+.navbar.scrolled {
+	background: palegreen;
+	transition: background;
+}
